@@ -4,14 +4,21 @@ var cardThree = "King"
 var cardFour = "King"
 
 if (cardOne === cardTwo) {
-	alert("You have a match!");
+	alert('You found a match!')
+} else {
+	alert("Sorry,try again.")
 }
-else if (cardOne === cardThree) {
-	alert("Sorry, try again.");
-}
-else if (cardThree === cardFour) {
-	alert("You have a match");
-}
-else if (cardThree === cardTwo) {
-	alert("Sorry not a match!");
+
+var board = document.getElementById('game-board');
+
+function createBoard() {
+	for (var i=0; i<cards.length; i++) {
+
+		var cardElement = document.createElement('test');
+
+	cardElement.className = 'card';
+
+	board.appendChild(test
+		);
+	}	
 }
