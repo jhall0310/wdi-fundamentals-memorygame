@@ -12,8 +12,6 @@ h2 {
 	display: inline-block;
 	width: 50%;
 	height: 50%;
-	float: left;
-	margin: 30%;
 }
 
 .card {
@@ -21,12 +19,12 @@ h2 {
 	width: 150px;
 	border: 1px solid black;
 	background-color: yellow;
-	border-radius: 10pt;
-	display: inline-block;
-	text-align: center;
-
-
-
+	border-radius: 10px;
+	float: left;
+	margin: 8%;
+	/*display: inline-block;*/
+/*	text-align: center;
+	align-self: center;*/
 }
 
 .name {
@@ -72,3 +70,8 @@ h3 {
 	text-align: center;
 }
 
+img {
+	height: 200px;
+	width: 150px;
+	border-radius: 10px;
+}
